@@ -22,6 +22,6 @@ class PrincipalData {
 
 
 // Creamos una instancia de la clase
-var Data = new PrincipalData
+var Data = new PrincipalData()
 
 export default Data

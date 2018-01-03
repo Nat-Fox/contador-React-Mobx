@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Data from './PrincipalData'
+import Data from '../logicCounter/logicCounter'
 
 class MasUno extends React.Component {
   render () { 

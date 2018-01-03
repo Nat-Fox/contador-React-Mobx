@@ -1,11 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Counter from './Counter';
-import App from './App';
-import './index.css';
-import Principal from './Principal'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import Principal from './Index/Principal'
 
 ReactDOM.render(
   <Principal />,
   document.getElementById('root')
 );
+

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 // importamos la instacia creada en principal data, para tener acceso a esta.
-import Data from './PrincipalData'
-import MasUno from './MasUno'
+import Data from '../logicCounter/logicCounter'
 import { observer } from 'mobx-react'
-import MenosUno from './MenosUno'
+import MenosUno from '../Counter/MenosUno'
+import MasUno from '../Counter/MasUno'
 
 class Principal extends React.Component {
   render() {
